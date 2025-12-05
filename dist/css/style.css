@@ -243,6 +243,16 @@ a:hover {
 	border-radius: 0.5rem;   /* 8px rounded corners */
   }
 
+.rotate {
+  animation: rotate 60s linear infinite !important;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* Theme System
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Light theme is default above */
